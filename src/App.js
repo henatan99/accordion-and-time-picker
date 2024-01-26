@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import DateTimePickerComp from './components/TimePicker';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         >
           Learn React
         </a>
+        <DateTimePickerComp label='Pick a date' />
       </header>
     </div>
   );
